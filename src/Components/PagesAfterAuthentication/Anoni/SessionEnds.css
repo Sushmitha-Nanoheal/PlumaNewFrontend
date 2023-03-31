@@ -1,0 +1,109 @@
+.ReviewClassentryLevel {
+  height: 11%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: nowrap;
+
+}
+
+.EndSessionBlock {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 700px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.SessionBackground {
+  background: #ffffff;
+  opacity: 0.65;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+
+}
+
+#SessionStopHead {
+  color: #fff;
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  font-weight: 400;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#SessionEnded {
+  color: #05396B;
+}
+
+.TimeSession {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Review-Block {
+  width: 100%;
+  height: 85%;
+  /* padding-top: 2%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.ScreenEndSessionTest {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 94%;
+  background: #05396B;
+  border: 2px solid #F2F2F2;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+#SessionDuration,
+#SessionTiming {
+  color: #ffffff;
+}
+
+#viewerSessionEnd {
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgb(255, 255, 255);
+  /* filter: blur(8px); */
+  opacity: 0.69;
+  -webkit-filter: blur(2px);
+  /* display: flex; */
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+.BlurImage {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.SessionStopped {
+  position: absolute;
+  top: 48%;
+  color: #fff;
+  left: 40%;
+}

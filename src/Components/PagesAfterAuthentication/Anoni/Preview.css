@@ -1,0 +1,49 @@
+.ReviewClassentryLevel{
+    height: 11%;
+    width: 100%;
+}
+.URLCopyBlock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 1%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.InputURL{
+    width: 90%;
+}
+.ScreenPreviewTest{
+    display: flex;
+    width: 100%;
+    height: 89%;
+    background: #05396B;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px;
+}
+.preview-TimeElapsedBlock{
+    display: none;
+}
+.StartSession-btn2{
+    padding: 10%;
+}
+#NXTBtn-2{
+    position: absolute;
+    top: 64%;
+    right: 7%;
+}
+#NXTBtn-2>button{
+    background-color: #5CDB94;
+}
+.PreviewCanvas{
+    color: #ffffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}

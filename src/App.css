@@ -1,0 +1,180 @@
+:root {
+  --my-favorite-boxshadowbtn: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+  --my-favorite-boxshadowinputbox: rgb(0 0 0 / 24%) 0px 3px 8px;
+  --my-favorite-boxshadowgrey: rgb(0 0 0 / 24%) 0px 3px 8px;
+  --svgdropshadow:drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+/* Themes */
+:root{
+  --MainTheme:#05396B;
+}
+/* Font Family */
+:root{
+  --FontFamily:'Raleway',sans-serif;
+}
+/* FontSize */
+:root{
+  /* 32px */
+  --Heading1:3vh;
+  /* 22px */
+  --Heading4:2.2vh;
+  /* 18px */
+  --Heading5:2vh;
+  /* 14px */
+  --Heading6:1.9vh;
+}
+.App {
+
+  /* text-align: center; */
+  height: 100vh;
+  
+}
+.secmini{
+  height: 100%;
+  width: 100%;
+}
+.mini{
+  overflow-y: auto;
+  overflow-x: auto;
+  min-height: 310px;
+  height: 100%;
+}
+
+.heading
+{
+  color:rgb(80 92 139);
+  font-weight: 700;
+}
+/* .footer {
+  background-color: #d9d9d9;
+
+  display: block;
+  width: 100%;
+  padding-left: 90%;
+  position: sticky;
+  top: 10%;
+  font-size: 60%;
+} */
+
+/* .form-control {
+  width: 32rem;
+  line-height: 3rem;
+  font-size: 1.5rem;
+ 
+  border: 0.1rem solid #958d8d;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  border-radius: 0.7rem;
+} */
+
+.lower-canvas{
+  border-radius: 1rem;
+  width: 100%!important;
+  height: 100%!important;
+    
+}
+.upper-canvas
+{
+  border-radius: 1rem;
+  width: 100%!important;
+  height: 100%!important;
+  
+
+}
+::-webkit-scrollbar {
+  width: 0.5rem;  
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, -3px); }
+  100%   { transform: translate(0, -0px); }   
+}
+.floatingpleaseshareright
+{
+  animation-name: floatingright;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+}
+@keyframes floatingright {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(-5px, 0); }
+  100%   { transform: translate(0, -px); }   
+}
+
+.floatingslider
+{
+  animation-name: floatingslider;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+  
+}
+
+@keyframes floatingslider {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(-2px, 0); }
+  100%   { transform: translate(0, -px); }   
+}
+/* Media quiery */
+
+@media only screen and (max-width: 600px) {
+  .SessionStep1{
+    max-width: 600px;
+    width: fit-content!important;
+  }
+  .InputURL {
+    width: 82%!important;
+}
+}
+@media only screen and (max-width: 700px) {
+  .PreviewerBlock{
+    display: flex;
+    flex-direction: column!important;
+    justify-content: start!important;
+  }
+  .TimeElapsedBlock{  
+    width: 100%!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+  }
+
+}
+
+/* LoginPage Media quiery */
+@media only screen and (max-width: 800px) {
+  .Login-Section,.CreateAccount-Section,.Thanking{
+    position: absolute;
+    width: 100%!important;
+  }
+  .HalfSideImage{
+    width: 100%!important;
+  }
+  .ScreenEndSessionTest{
+    display: flex;
+    flex-direction: column!important;
+  }
+}
+
+/* .ViewerBlock::before{
+  content: "Hello";
+  position: absolute;
+  z-index: 5;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 62%;
+  width: 71%;
+} */

@@ -1,0 +1,49 @@
+.Regards-Section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.Thanking{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9%;
+}
+.Thanking-Border{
+    border: 1px solid #EFF4FD;
+    box-shadow: 0px 3px 10px rgba(119, 119, 119, 0.1);
+    border-radius: 4px;
+    padding: 19% 11%;
+    background-color: #ffffff;
+}
+#Thank-You{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading1);
+    /* line-height: 32px; */
+    color: #05396B;
+    padding: 6% 0%;
+}
+#endText{
+    padding-bottom: 5%;
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--Heading5);
+    display: flex;
+    align-items: center;
+    line-height: 152%;
+    color: var(--MainTheme);
+    gap: 1%;
+}
+#ContactLink{
+    color: var(--MainTheme);
+}

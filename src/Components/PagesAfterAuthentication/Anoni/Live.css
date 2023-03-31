@@ -1,0 +1,155 @@
+.URLBlock {
+    display: flex;
+}
+
+.URLFormInput {
+    height: 2.3rem;
+    border-radius: 0.5rem;
+    width: 87rem;
+    line-height: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.PreviewerBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #05396B;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+
+.ViewerBlock {
+    width: 100%;
+    height: 100%;
+    max-width: 690px;
+    max-height: 550px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.TestBlock {
+    width: 100%;
+    height: 92%;
+    margin-left: 1rem;
+}
+
+.TimeElapsedBlock {
+    width: 30%;
+    padding: 2%;
+    max-width: 650px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#StartingBlock {
+    height: 4rem;
+    width: 22rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* CSS */
+.LiveClassBlock {
+    height: 11%;
+    width: 100%;
+}
+
+#NXTBtn-3 {
+    display: none;
+}
+
+#TimingTesting {
+    color: #FFFFFF;
+}
+
+#starttime,
+#TimeDurationheading,
+#TimingBlock {
+    color: #FFFFFF;
+}
+
+#TimingBlock {
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading1);
+    line-height: 150%;
+}
+
+#TimeDurationheading {
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--Heading5);
+    line-height: 150%;
+}
+
+#starttime {
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--Heading6);
+    line-height: 150%;
+}
+
+#HideButton {
+    display: none;
+}
+
+.Copy-URL-Block {
+    background-color: #ffffff;
+    padding: 6% 5%;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.URLBlock-Session {
+    width: 15%;
+}
+
+.URLCopyBlock {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputURL {
+    width: 90%;
+}
+
+.CopyURLMSG-Block {
+    width: 8%;
+    display: contents;
+}
+
+#StartTimeHeading {
+    display: flex;
+    font-weight: 600;
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-size: var(--Heading5);
+    color: #ffff;
+    line-height: normal;
+    /* color: #c73232; */
+}
+#starttime>div{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,685 @@
+html {
+  font-size: 60%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 140%;
+
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.borderwhite {
+  box-shadow: 0px 0px 0px 0.7rem white !important;
+  border-radius: 1.1rem !important;
+  
+}
+
+.mid {
+  margin-top: 9rem !important;
+  margin-bottom: 8rem !important ;
+}
+
+.secApp
+{
+  background-color: black;
+}
+
+
+.registermedia
+  {
+    margin-top: 2rem!important;
+    margin-left: 9rem!important;
+    scale:60%!important;
+   
+  }
+
+  .navlink
+  {
+    width: 5.1rem!important;
+    height: 3rem!important;
+    margin-top: 9rem!important;
+  }
+  
+
+
+
+
+#view-canvas
+{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* For extremely small screen devices (595px and below)
+@media only screen and (max-width: 595px) {...}
+
+/* Small screen devices (600px and above) */
+/* @media (min-width: 600px) and (max-width: 800px) {
+
+  #view-canvas
+  {
+    position: relative;
+    left: 7rem;
+    width: 34vw;
+
+
+  }
+  
+  
+ 
+
+} */
+
+
+/* @media (min-width: 600px) and (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+
+  .sliders {
+    margin-left: -1.3rem !important;
+  }
+
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1.3rem white !important;
+    border-radius: 1.1rem !important;
+  }
+
+  .navlink {
+    width: 7.4rem !important;
+    height: 5rem !important;
+    margin-bottom: 11rem;
+  }
+} */
+
+/* media screens/// */
+
+/* Medium screen devices (768px and above) */
+/* @media (min-width: 768px) and (max-width: 889px) {
+  html {
+    font-size: 75%;
+  }
+
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1rem white !important;
+    border-radius: 1.1rem !important;
+  }
+
+  .sliders {
+    margin-left: -2rem !important;
+  }
+
+  .navlink {
+    width: 7.1rem !important;
+    height: 5rem !important;
+    margin-bottom: 11rem;
+  }
+} */
+
+@media (min-width: 931px) and (max-width: 1050px) {
+
+  #view-canvas
+  {
+    position: relative;
+    left: 5rem;
+
+  }
+  
+  
+ 
+
+}
+
+
+/* @media (min-width: 800px) and (max-width: 970px) {
+  .canvas-container {
+    width: 40rem !important;
+    height: 28rem !important;
+  }
+  .upper-canvas {
+    width: 40rem !important;
+    height: 28rem !important;
+  }
+
+  #preview {
+    width: 40rem !important;
+    height: 28rem !important;
+  }
+} */
+
+
+/* big screen devices (889px and above) */
+
+@media (min-width: 931px) and (max-width: 1068px) {
+  html {
+    font-size: 85%;
+  }
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+
+  .sliders {
+    margin-left: -1rem !important;
+  }
+
+  .navlink {
+    width: 7rem !important;
+    height: 5rem !important;
+    margin-bottom: 9rem;
+  }
+
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1.2rem white !important;
+    border-radius: 1.1rem !important;
+  }
+}
+
+
+@media (min-width: 970px) and (max-width: 1039px) {
+  .canvas-container {
+    width: 40rem !important;
+    height: 28rem !important;
+  }
+  .upper-canvas {
+    width: 40rem !important;
+    height: 28rem !important;
+  }
+
+  #preview {
+    width: 40rem !important;
+    height: 28rem !important;
+  }
+}
+/* Big screen devices (889px and above) */
+@media (min-width: 1068px) and (max-width: 1290px) {
+  html {
+    font-size: 76%;
+  }
+  
+ 
+
+  .sliders {
+    margin-left: 1rem !important;
+    height: 41rem !important;
+  }
+
+  .navlink {
+    width: 7rem !important;
+    height: 5rem !important;
+    margin-bottom: 12rem;
+  }
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1.8rem white !important;
+    border-radius: 1.1rem !important;
+  }
+
+  /* 
+.canvas-container 
+{
+  width: 50rem!important;
+  height:30rem!important;
+}
+ .upper-canvas 
+{
+  width: 50rem!important;
+  height:30rem!important;
+}
+
+#preview
+{
+  width: 50rem!important;
+  height:30rem!important;
+} */
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .CircleCross
+  {
+    margin-right:71rem!important;
+  }
+
+}
+
+@media (min-width: 1039px) and (max-width: 1111px) {
+  .canvas-container {
+    width: 50rem !important;
+    height: 28rem !important;
+  }
+  .upper-canvas {
+    width: 50rem !important;
+    height: 28rem !important;
+  }
+
+  #preview {
+    width: 50rem !important;
+    height: 28rem !important;
+  }
+}
+
+/* extra */
+@media (min-width: 1108px) and (max-width: 1175px) {
+  .canvas-container {
+    width: 55rem !important;
+    height: 28rem !important;
+  }
+  .upper-canvas {
+    width: 55rem !important;
+    height: 28rem !important;
+  }
+
+  #preview {
+    width: 55rem !important;
+    height: 28rem !important;
+  }
+}
+/* //extra */
+@media (min-width: 1175px) and (max-width: 1244px) {
+  .canvas-container {
+    width: 60rem !important;
+    height: 28rem !important;
+  }
+  .upper-canvas {
+    width: 60rem !important;
+    height: 28rem !important;
+  }
+
+  #preview {
+    width: 60rem !important;
+    height: 28rem !important;
+  }
+}
+
+/* extra */
+@media (min-width: 1244px) and (max-width: 1389px) {
+ 
+  .canvas-container {
+    width: 65rem !important;
+    height: 28rem !important;
+    
+  }
+  .upper-canvas {
+    width: 65rem !important;
+    height: 28rem !important;
+  }
+
+  .lower-canvas {
+    width: 65rem !important;
+    height: 28rem !important;
+  }
+}
+
+/* exttra large screen devices (1290px and above) */
+@media (min-width: 1290px) and (max-width: 1496px) {
+  html {
+    font-size: 95%;
+  }
+
+  .sliders {
+    margin-left: 1rem !important;
+    height: 35rem !important;
+    
+  }
+
+  .navlink {
+    width: 5.6rem !important;
+    height: 5rem !important;
+    margin-bottom: 10rem;
+}
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1.2rem white !important;
+    border-radius: 1.1rem !important;
+  }
+
+  .canvas-container {
+    height: 28rem !important;
+    width: 53rem !important;
+  }
+  .upper-canvas {
+    height: 28rem !important;
+    width: 53rem !important;
+  }
+
+  .lower-canvas {
+    height: 28rem !important;
+    width: 53rem !important;
+  }
+}
+
+
+
+/* //terms&cond */
+@media (min-width: 1343px) and (max-width: 1400px) {
+  html {
+    font-size: 80%;
+  }
+  .sliders {
+    margin-left: 1rem !important;
+    height: 35rem !important;
+    height: 38rem !important;;
+    
+  }
+  .navlink {
+    width: 6.5rem !important;
+    height: 5rem !important;
+    margin-bottom: 11rem;
+}
+  .CircleCross
+  {
+margin-right:68rem!important;
+  }
+
+  
+.canvas-container {
+  height: 28rem !important;
+  width: 55rem !important;
+}
+.upper-canvas {
+  height: 28rem !important;
+  width: 55rem !important;
+}
+
+.lower-canvas {
+  height: 28rem !important;
+  width: 55rem !important;
+}
+  
+}
+@media (min-width: 1400px) and (max-width: 1500px) 
+  {
+
+    .canvas-container {
+      height: 28rem !important;
+      width: 60rem !important;
+    }
+    .upper-canvas {
+      height: 28rem !important;
+      width: 60rem !important;
+    }
+    
+    .lower-canvas {
+      height: 28rem !important;
+      width: 60rem !important;
+    }
+  }
+
+@media (min-width: 1497px) and (max-width: 1600px) {
+   html {
+    font-size: 95%;
+  }
+  .navlink {
+    width: 5.8rem !important;
+    height: 5rem !important;
+    margin-bottom: 11rem;
+}
+.borderwhite {
+  box-shadow: 0px 0px 0px 1.5rem white !important;
+  border-radius: 1.1rem !important;
+}
+
+
+.canvas-container {
+  height: 31rem !important;
+  width: 65rem !important;
+}
+.upper-canvas {
+  height: 31rem !important;
+  width: 65rem !important;
+}
+
+.lower-canvas {
+  height: 31rem !important;
+  width: 65rem !important;
+}
+  
+}
+
+
+
+@media (min-width: 1600px) and (max-width: 2000px)
+ {
+
+
+  .registermedia
+  {
+    margin-top: 6rem!important;
+    margin-left: 15rem!important;
+    scale: 85%!important;
+  }
+
+  html {
+    font-size: 100%;
+  }
+  
+  .sliders {
+    margin-left: 1rem !important;
+    flex: 0 0 15rem!important;
+    max-width: 6rem!important;
+    height:39rem;
+    
+  }
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1rem white !important;
+    border-radius: 1.1rem !important;
+  }
+  .navlink {
+    width: 6.5rem !important;
+    height: 5rem !important;
+    margin-bottom: 11rem;
+}
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+  
+
+.canvas-container {
+  height: 28rem !important;
+  width: 65rem !important;
+}
+.upper-canvas {
+  height: 28rem !important;
+  width: 65rem !important;
+}
+
+.lower-canvas {
+  height: 28rem !important;
+  width: 65rem !important;
+}
+}
+
+
+
+
+
+@media (min-width: 2000px) and (max-width: 2300px)
+ {
+
+
+  
+  html {
+    font-size: 150%;
+  }
+  .registermedia
+  {
+    margin-top: 6rem!important;
+    margin-left: 25rem!important;
+    scale: 85%!important;
+  }
+  .sliders {
+    margin-left: 1rem !important;
+    flex: 0 0 15rem!important;
+    max-width: 5rem!important;
+    
+  }
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1rem white !important;
+    border-radius: 1.1rem !important;
+  }
+  .navlink {
+    width: 5.6rem !important;
+    height: 5rem !important;
+    margin-bottom: 11rem;
+}
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+
+
+
+}
+
+
+
+/* ///create account// */
+
+@media (min-width: 2300px) and (max-width: 2652px)
+ {
+  html {
+    font-size: 150%;
+  }
+  .registermedia
+  {
+    margin-top: 6rem!important;
+    margin-left: 40rem!important;
+    scale: 85%!important;
+  }
+
+  .sliders {
+    margin-left: 1rem !important;
+    flex: 0 0 15rem!important;
+    max-width: 6rem!important;
+    
+  }
+  .borderwhite {
+    box-shadow: 0px 0px 0px 2rem white !important;
+    border-radius: 1.1rem !important;
+  }
+
+    .navlink {
+      width: 6.5rem !important;
+      height: 5rem !important;
+      margin-bottom: 11rem;
+  }
+  
+  .mid {
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important ;
+  }
+
+
+  
+}
+
+
+
+
+/* media queris for third canvas screen */
+
+  /* @media (min-height: 497px) and (max-height: 662px)
+ {
+  html {
+    font-size: 85%;
+  }
+ 
+ 
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1.5rem white !important;
+    border-radius: 1.1rem !important;
+  }
+
+  
+  .navlink {
+    width: 6.5rem !important;
+    height: 5rem !important;
+    margin-bottom: 10rem;
+}
+
+.canvas-container {
+  height: 28rem !important;
+  width: 60rem !important;
+}
+.upper-canvas {
+  height: 28rem !important;
+  width: 60rem !important;
+}
+
+.lower-canvas {
+  height: 28rem !important;
+  width: 60rem !important;
+}
+  
+
+
+ }
+
+
+ @media (min-height: 663px) and (max-height: 994px)
+ {
+  html {
+    font-size: 85%;
+  }
+ 
+  .sliders {
+    margin-left: 0.5rem !important;
+    flex: 0 0 15rem!important;
+    max-width: 6.5rem!important;
+    
+  }
+  .borderwhite {
+    box-shadow: 0px 0px 0px 1.5rem white !important;
+    border-radius: 1.1rem !important;
+  }
+  .navlink {
+    width: 6.5rem !important;
+    height: 5rem !important;
+    margin-bottom: 10rem;
+}
+  
+}
+    */
+
+
+ 
+
+
+ 
+
+
+
+
+

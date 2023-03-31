@@ -1,0 +1,32 @@
+.HelpContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.HeadingfCotainer{
+    height: 5%;
+}
+.HelpListContainer{
+    height: 95%;
+    background: #F1F7FD;
+    border: 1px solid #EDF5E0;
+    border-radius: 10px;
+    padding: 2%;
+}
+#Help-Heading{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading1);
+    line-height: 150%;
+    /* padding: 0.5%; */
+}
+.jIOZjB{
+   background-color: #F1F7FD;
+   padding: 2%;
+}
+.gydwRw{
+    background-color: #F1F7FD!important;
+}

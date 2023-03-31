@@ -1,0 +1,35 @@
+.Verifivation-Block{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.VerifiedHighlightMSG{
+    padding: 6% 9%;
+    background: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #EFF4FD;
+box-shadow: 0px 3px 10px rgba(119, 119, 119, 0.1);
+}
+#VerifiedSubheading{
+    font-family: var(--FontFamily);
+    font-size: var(--Heading1);
+    font-weight: 700;
+    padding: 7% 0% 25% 0%;
+}
+#RegisteredAlertMSG,#AnotherEmail{
+    font-family: var(--FontFamily);
+    font-size: var(--Heading4);
+    font-weight: 700;
+    padding: 7% 0%;
+    /* padding: 7% 0% 25% 0%; */
+}
+.LinkToRegister{
+    text-decoration: none;
+}
+.LinkToRegister:hover{
+    text-decoration: none;
+}

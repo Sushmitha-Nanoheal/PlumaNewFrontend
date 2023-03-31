@@ -1,0 +1,167 @@
+.CreateAccount-block{
+    width: 100%;
+    height: 100%;
+}
+.CreateAccount-Handler{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.CreateAccount-Section{
+    /* display: flex; */
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+.CreateAccountScreen-Border{
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #EFF4FD;
+    box-shadow: 0px 3px 10px rgba(119, 119, 119, 0.1);
+    border-radius: 4px;
+    padding: 7% 7% 1% 7%;
+    background-color: #ffffff;
+}
+#RegisterHeading{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading1);
+    /* line-height: 32px; */
+    text-align: center;
+    color: var(--MainTheme);
+    padding: 2%;
+}
+#RegisterParagraph{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--Heading6);
+    /* line-height: 28px; */
+    color: #8692A6;
+    text-align: center;
+}
+.NameLabel>label, .CA-EmailLabel>label, .CA-Password>label {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0%;
+}
+.TermsConditions-Block{
+    display: flex;
+    align-items: center;
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--Heading5);
+    /* line-height: 19px; */
+    color: #1B1B1B;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.TAC-Link{
+    display: flex;
+    align-items: baseline;
+    margin-top: -0.6rem;
+    align-content: center;
+    justify-content: center;
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading5);
+    /* line-height: 20px; */
+    
+}
+.TAC-Link>a{
+    color: var(--MainTheme);
+}
+.NameLabel>label>span>span,.CA-EmailLabel>label>span>span,.CA-Password>label>span>span,.text-danger{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading5);
+    /* line-height: 20px; */
+    color: #252A31;
+}
+.LinkForTAC>label>div>span{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading5);
+    /* line-height: 20px; */
+    color: #252A31;
+}
+.RegiterButton{
+    display: flex;
+    flex-direction: column;
+    padding: 3% 0%;
+}
+.SubmitButtonToRegister{
+    display: flex;
+    flex-direction: column;
+    
+}
+.SubmitBtn{
+    background: #5CDB94;
+    color: #FFFFFF;
+    border-radius: 6px!important;
+}
+.AlreadyHaveAccount{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--Heading6);
+    /* line-height: 19px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #05396B;
+    padding: 3% 0%;
+}
+.AlreadyHaveAccount>a{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading5);
+    color: var(--MainTheme);
+}
+.cZMEhn{
+   color: var(--MainTheme)!important;
+}
+#InputFieldBlog-feedback,.bFFLrC::before{
+    background-color: var(--MainTheme)!important;
+}
+#TermsAndConditionButton{
+    background: none;
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading5);
+    /* line-height: 20px; */
+    color: var(--MainTheme)!important;
+    padding: 0px!important;
+    text-decoration: underline;
+}
+.cDSaGL{
+    height: 70%;
+    overflow: auto;
+    max-width: 70%!important;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-button{
+    
+}
+
+.fHLAjP{
+    border-radius: 25px!important;
+    padding: 3% 4% !important;
+}
+.jCJfHC>div>div>div>a>div{
+   display: none;
+}

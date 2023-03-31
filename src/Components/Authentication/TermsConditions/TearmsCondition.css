@@ -1,0 +1,19 @@
+#TAC-Heading{
+    font-family: var(--FontFamily);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--Heading1);
+    /* line-height: 32px; */
+    color: Var(--MainTheme);
+    text-align: start;
+    padding: 3% 0%;
+}
+.force-overflow>div>p{
+    font-family:var(--FontFamily);
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--Heading5);
+    display: flex;
+    align-items: center;
+    color: var(--MainTheme);
+}
